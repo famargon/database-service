@@ -1,0 +1,23 @@
+{
+  "name": "database-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "express": "4.15.3",
+    "express-basic-auth": "1.1.1",
+    "body-parser": "1.17.2",
+    "mongodb": "2.2.29",
+    "dotenv": "4.0.0",
+    "query-to-mongo": "0.6.2"
+  },
+  "repository": {
+    "url": "https://github.com/famargon/database-service.git",
+    "type": "git"
+  },
+  "author": "fabian",
+  "license": "Apache 2.0"
+}
