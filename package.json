@@ -18,6 +18,9 @@
     "url": "https://github.com/famargon/database-service.git",
     "type": "git"
   },
+  "engines": {
+    "node":">=8.1.2"
+  },
   "author": "fabian",
   "license": "Apache 2.0"
 }
