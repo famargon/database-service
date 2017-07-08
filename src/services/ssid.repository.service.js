@@ -1,5 +1,5 @@
 var database = require("./mongo.database.service");
-var utils = require("./utils");
+var utils = require("../utils");
 
 var lastSsid = undefined;
 

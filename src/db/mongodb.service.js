@@ -1,11 +1,9 @@
 var MongoClient = require('mongodb').MongoClient;
  
-var connection;
-
 // Connection URL 
 const url = process.env.MONGOURL;
 
-var performOperation = function(operation){
+var connect = function(operation){
   MongoClient.connect(url, async function(err, db) {
     console.log("Connected correctly to server");
     await operation(db);
@@ -15,5 +13,5 @@ var performOperation = function(operation){
 }
 
 module.exports = {
-  performOperation
+  connect
 }
