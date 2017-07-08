@@ -34,7 +34,7 @@ app.get("/ssid",function(req,res){
     mongoDatabaseService.listAll("ssid",res);
 })
 
-var port = process.env.port || 8888;
+var port = process.env.PORT || 8888;
 
 app.listen(port,function(){
     console.log("Server bound")
